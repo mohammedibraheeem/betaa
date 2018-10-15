@@ -1,0 +1,142 @@
+.nav-right li{
+    font-family: 'Cairo', sans-serif;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    float: right;
+    color: white;
+    height: 100%;
+    border-left: 1px solid;
+    border-color: #2c2c2c;
+}
+ul{
+    list-style: none;
+}
+#Nav
+{
+    background-color: black;
+    height: 50px;;
+    width: 100%;
+    position: fixed;
+}
+.nav-right li:hover,.nav-left li:hover{
+    background-color:#0277bd;
+    cursor: pointer;
+}
+.nav-left li{
+    font-family: 'Cairo', sans-serif;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    float: left;
+    color: white;
+    height: 100%;
+    border-left: 1px solid;
+    border-color: #2c2c2c;
+}
+.fab{
+    color: white;
+    
+}
+#search-div{
+    height: 450px;
+    position: absolute;
+}
+.search-div-on{
+max-height: 500px;
+transition: max-height 0.25s ease-in;
+ top: 50px;
+ position: absolute;
+ opacity: 1;
+ background-color: #252525;
+ width: 100%;
+}
+.search-div-off
+{
+        max-height: 0;
+        transition: max-height 0.15s ease-out;
+        overflow: hidden;
+        background: #d5d5d5;
+}
+.altern-navbar
+{
+    height: 122px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+.altern-search
+{
+    color: white;
+    float: left;
+    padding-top: 3%;
+    padding-left: 1%;
+    font-size: 20px;
+
+}
+.altern-menu
+{
+    color: white;
+    float: right;
+    padding-top: 3%;
+    padding-right: 1%;
+    font-size: 20px;
+}
+ .logo {
+    margin: 12px calc((71% - 257px)/ 2);
+    width: 157px;
+    height: 26px;
+    padding: 0;
+}
+.yalla{
+    width: 37%;
+    margin-top: 3%;
+}
+.matches-menu{
+    height: 100%;
+    z-index: -1;
+    background-color: #333333;
+}
+.navbar-menu-mob {
+    height: 100%;
+    background-color: #252525;
+    z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+    .altern-navbar{
+        display:block;
+    }
+    #Nav{
+        display: none;
+    }
+    .nav-nav-mob{
+      display: block
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .altern-navbar{
+        display:none;
+    }
+    #Nav{
+        display: block;
+    }
+    .nav-nav-mob{
+        display: none;
+    }
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.mob-nav-div-on{
+     max-height: 100%;
+     transition: max-height 0.25s ease-in;
+     opacity: 1;
+    }
+    .mob-nav-div-off
+    {
+            max-height: 0;
+            transition: max-height 0.15s ease-out;
+    }
+
+
